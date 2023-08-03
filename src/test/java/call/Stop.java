@@ -21,7 +21,7 @@ public class Stop {
 		  driver.get("https://www.flipkart.com/");
 		  driver.manage().deleteAllCookies();
 	  
-	  
+	  driver.quit();
 	  
 	  
 	  
